@@ -13,5 +13,7 @@ cd lean
 git clone https://github.com/tzxiaozhen88/luci-app-koolproxyR
 git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git
 git clone https://github.com/rosywrt/luci-theme-rosy
+cd openwrt
 ./scripts/feeds update -a
+cd openwrt
 ./scripts/feeds install -a
